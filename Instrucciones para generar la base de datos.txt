@@ -1,0 +1,6 @@
+Estas instrucciones parden del supuesto de que ya han creado una base de datos llamada datos y que esta ha sido seleccionada.
+
+use datos;
+
+CREATE TABLE covid (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, fecha
+TIMESTAMP DEFAULT CURRENT_TIMESTAMP, nombre CHAR (248), temp FLOAT(4,2) NOT NULL, sp02 INT(1) UNSIGNED NOT NULL, bpm INT(1) UNSIGNED NOT NULL);
